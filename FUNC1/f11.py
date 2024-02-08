@@ -1,3 +1,4 @@
+'''
 s = input()
 sum = len(s) 
 check = 1
@@ -12,3 +13,4 @@ if ali == 0:
     print("not palindrome")
 else:
     print("polindrome")
+'''
