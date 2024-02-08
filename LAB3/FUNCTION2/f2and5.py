@@ -15,7 +15,7 @@ movies = [
     {"name": "Exam", "imdb": 4.2, "category": "Thriller"},
     {"name": "We Two", "imdb": 7.2, "category": "Romance"}
 ]
-lis1 = input("category")
+lis1 = input()
 def mean(lis):
     cat = [j for j in lis if j['category'] == lis1 ]
     return sum(i["imdb"] for i in cat) / len(cat)
